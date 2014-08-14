@@ -14,8 +14,8 @@ Installation
 To install the app, use:
 
 ```ssh
-$ git clone https://github.com/tr8n/tr8n_samples_welp_rails.git
-$ cd tr8n_samples_welp_rails/after
+$ git clone https://github.com/tr8n/tr8n_rails_samples_welp.git
+$ cd tr8n_rails_samples_welp/after
 $ bundle
 $ bundle exec rails s
 ```
