@@ -1,0 +1,46 @@
+<%= tr8n_block(source: '/navigation') do %>
+
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">
+            <%= tr("Toggle navigation") %>
+          </span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <strong>Welp</strong>
+        </a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to(tr("About Us"), '#') %></li>
+          <li><%= link_to(tr("Search"), '#') %></li>
+          <li><%= link_to(tr("Write a Review"), '#') %></li>
+          <li><%= link_to(tr("Find Friends"), '#') %></li>
+          <li><%= link_to(tr("Help"), '#') %></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= tr8n_language_selector_tag(:type => :dropdown, :style => "margin-top:15px", :language => :native) %>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= tr("More {caret}", :caret => '<b class="caret"></b>') %>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to(tr("Log in"), '#') %></li>
+              <li><%= link_to(tr("Sign Up"), '#') %></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<% end %>

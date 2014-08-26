@@ -6,13 +6,13 @@ Tr8n.configure do |config|
   }
   config.cache = {
     :enabled  => true,
-    :adapter  => 'memcache',
-    :host     => 'localhost:11211',
-    :version  => 1,
+    :adapter  => 'rails',
+    #:host     => 'localhost:11211',
+    :version  => 8,
     :timeout  => 3600
   }
   config.logger  = {
-    :enabled  => false,
+    :enabled  => true,
     :path     => "#{Rails.root}/log/tr8n.log",
     :level    => 'debug'
   }

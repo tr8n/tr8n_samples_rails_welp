@@ -37,7 +37,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'dalli'
+#gem 'dalli'
+
+gem 'memcache-client', '~> 1.8'
 gem 'tr8n_client_sdk', '~> 3.2'
 
 #gem 'tr8n_core', :path => '../../../tr8n_ruby_core'

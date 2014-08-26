@@ -53,6 +53,8 @@ module Welp
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    config.cache_store = :mem_cache_store, "localhost:11211"
+
     # Enable the asset pipeline
     config.assets.enabled = true
 

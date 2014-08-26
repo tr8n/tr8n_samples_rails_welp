@@ -1,0 +1,144 @@
+<div class="container">
+
+  <div class="content">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="pull-right"><br>
+          <%= link_to("More Cities", "#") %>
+        </div>
+        <h4>
+          Welp Los Angeles
+        </h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="well">
+          <h3 class="text-primary">
+            The best way to find local businesses
+          </h3>
+          <p class="text-muted">
+            Search for everything from the city's tastiest burger to the most renowned cardiologist.
+            What will you uncover in your neighborhood?
+          </p>
+          <p>
+            <%= link_to("Create your free account", "#", class: "btn btn-primary") %>
+          </p>
+        </div>
+
+        <h3 class="text-primary">
+          Best of Welp: Los Angeles
+        </h3>
+
+        <hr>
+
+        <small class="pull-right">
+          <%=link_to("See More", '#') %>
+        </small>
+
+        <h5 class="text-primary">
+          Restaurants
+        </h5>
+
+        <% @restaurants.each_with_index do |restaurant, index| %>
+          <div class="media">
+            <a class="pull-left" href="#">
+              <div class="media-object media-img"></div>
+            </a>
+            <div class="media-body">
+              <strong>
+                <%= index + 1 %>.
+                <%= link_to(restaurant[:name], '#') %>
+              </strong>
+
+              <div class="text-muted">
+                <%= image_tag("#{restaurant[:rating]}-stars.png", title: "#{restaurant[:rating]} out of 5 stars") %>
+                <%= restaurant[:review_count] %> <%= pluralize(restaurant[:review_count], 'Review') %>
+              </div>
+
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <div class="media-object media-img-sm"></div>
+                </a>
+                <div class="media-body">
+                  <p> <%= restaurant[:last_comment] %></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+      </div>
+
+      <div class="col-sm-5">
+        <%= form_tag do %>
+          <div class="form-group">
+            <label><small>
+              Find
+            </small></label>
+            <input type="text" class="form-control" placeholder="tacos, cheap dinner, etc.">
+          </div>
+          <div class="form-group">
+            <label><small>
+              Near
+            </small></label>
+            <input type="text" class="form-control" value="Los Angeles">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default btn-sm">
+              Search
+            </button>
+          </div>
+        <% end %>
+
+        <hr>
+
+        <h4 class="text-primary">
+          Review of the day
+        </h4>
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              Jane Smith reviewed <a href="#">Ricky's Fish Tacos</a>
+            </strong>
+            <div>
+              <%= image_tag("5-stars.png", :title => "5 out of 5 stars") %>
+            </div>
+            <small class="text-muted">
+              234 Reviews
+            </small>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, architecto, laboriosam doloribus sequi tenetur maxime magni porro sunt facilis officia deserunt blanditiis vitae consectetur rerum alias dolorem et dignissimos...
+              <%= link_to("Read More", "#") %>
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <h4 class="text-primary">
+          Welp on the go
+        </h4>
+
+        <p>
+          Get the Welp app on your mobile phone. It's free and helps you find great, local businesses on the go!
+        </p>
+
+        <button type="submit" class="btn btn-default btn-sm">
+          Get it free now
+        </button>
+
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+
+</div>
