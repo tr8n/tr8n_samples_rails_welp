@@ -38,5 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'dalli'
-gem 'tr8n_client_sdk', '~> 4.1'
+gem 'dalli', '~> 2.7'
+gem 'memcache-client', '~> 1.8'
+gem 'tr8n_client_sdk', '~> 4.2'
