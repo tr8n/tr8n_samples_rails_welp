@@ -39,4 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'dalli'
-gem 'tr8n_client_sdk', '~> 4.2'
+gem 'tr8n_client_sdk', '~> 4.3'
