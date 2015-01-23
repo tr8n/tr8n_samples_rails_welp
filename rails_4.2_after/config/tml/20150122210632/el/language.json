@@ -4,7 +4,7 @@
   "english_name": "Greek",
   "native_name": "Ελληνικά",
   "right_to_left": false,
-  "flag_url": "http://localhost:3000/media_20141208/75/18/41/69/2ac47ef71bde369af.png",
+  "flag_url": "https://d23w63adpjpix6.cloudfront.net/75/18/41/69/2ac47ef71bde369af.png",
   "contexts": {
     "date": {
       "rules": {
@@ -181,10 +181,10 @@
   "cases": {
   },
   "links": {
-    "self": "http://localhost:3000/v1/languages/63",
-    "contexts": "http://localhost:3000/v1/languages/63/contexts",
-    "cases": "http://localhost:3000/v1/languages/63/cases",
-    "countries": "http://localhost:3000/v1/languages/63/countries",
-    "dialects": "http://localhost:3000/v1/languages/63/dialects"
+    "self": "http://internal-internalapi-526551279.us-west-1.elb.amazonaws.com/v1/languages/63",
+    "contexts": "http://internal-internalapi-526551279.us-west-1.elb.amazonaws.com/v1/languages/63/contexts",
+    "cases": "http://internal-internalapi-526551279.us-west-1.elb.amazonaws.com/v1/languages/63/cases",
+    "countries": "http://internal-internalapi-526551279.us-west-1.elb.amazonaws.com/v1/languages/63/countries",
+    "dialects": "http://internal-internalapi-526551279.us-west-1.elb.amazonaws.com/v1/languages/63/dialects"
   }
 }

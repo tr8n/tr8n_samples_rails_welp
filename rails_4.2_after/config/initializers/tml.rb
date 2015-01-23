@@ -1,8 +1,6 @@
-Tr8n.configure do |config|
+Tml.configure do |config|
   config.application = {
-      host: 'http://localhost:3000',
-      key: 'e328f674f3da28cbaf62aaf4a66079da5916ee2b3620fb082f0536ed8f0baff0',
-      secret: 'f22a75eedf315a4321b9a036d16453821abf602b747917134c36ecbe40e586ff'
+      token: 'f5f578900616644c9fd7d4584101f68b51a4ca9c402a20e1c34f825c27834d16'
   }
 
   #config.cache = {
@@ -17,14 +15,14 @@ Tr8n.configure do |config|
   config.cache = {
       :enabled    => true,
       :adapter    => 'file',
-      :path       => 'config/tr8n',
+      :path       => 'config/tml',
       :version    => 'current',
       :segmented  => false
   }
 
   config.logger  = {
     :enabled  => false,
-    :path     => "#{Rails.root}/log/tr8n.log",
+    :path     => "#{Rails.root}/log/tml.log",
     :level    => 'debug'
   }
 end

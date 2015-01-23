@@ -40,4 +40,5 @@ gem 'spring',        group: :development
 
 gem 'dalli', '~> 2.7'
 gem 'memcache-client', '~> 1.8'
-gem 'tr8n_client_sdk', '~> 4.2'
+
+gem 'tml-rails'

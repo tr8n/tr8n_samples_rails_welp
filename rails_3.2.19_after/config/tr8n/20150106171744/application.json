@@ -22,7 +22,7 @@
   },
   "tokens": {
   },
-  "css": ".tr8n_not_translated { border-bottom: 2px dotted red; } .tr8n_translated { border-bottom: 2px dotted green; } .tr8n_fallback { border-bottom: 2px dotted #e90; } .tr8n_locked { border-bottom: 2px dotted blue; } .tr8n_pending { border-bottom: 2px dotted #e90; } .tr8n_language_case { padding:3px; border: 1px dotted blue; }",
+  "css": ".tml_not_translated { border-bottom: 2px dotted red; } .tml_translated { border-bottom: 2px dotted green; } .tml_fallback { border-bottom: 2px dotted #e90; } .tml_locked { border-bottom: 2px dotted blue; } .tml_pending { border-bottom: 2px dotted #e90; } .tml_language_case { padding:3px; border: 1px dotted blue; }",
   "shortcuts": {
     "Ctrl+Shift+S": "Tr8n.Utils.openShortcuts();",
     "Ctrl+Shift+G": "Tr8n.Utils.login();",

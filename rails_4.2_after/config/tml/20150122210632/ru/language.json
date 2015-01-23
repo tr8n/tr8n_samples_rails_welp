@@ -4,7 +4,7 @@
   "english_name": "Russian",
   "native_name": "Русский",
   "right_to_left": false,
-  "flag_url": "http://localhost:3000/media_20141208/91/67/34/74/6d14cff5e2826c668.png",
+  "flag_url": "https://d23w63adpjpix6.cloudfront.net/91/67/34/74/6d14cff5e2826c668.png",
   "contexts": {
     "list": {
       "rules": {
@@ -2107,11 +2107,11 @@
     }
   },
   "links": {
-    "self": "http://localhost:3000/v1/languages/233",
-    "contexts": "http://localhost:3000/v1/languages/233/contexts",
-    "cases": "http://localhost:3000/v1/languages/233/cases",
-    "countries": "http://localhost:3000/v1/languages/233/countries",
-    "dialects": "http://localhost:3000/v1/languages/233/dialects"
+    "self": "https://api.translationexchange.com/v1/languages/233",
+    "contexts": "https://api.translationexchange.com/v1/languages/233/contexts",
+    "cases": "https://api.translationexchange.com/v1/languages/233/cases",
+    "countries": "https://api.translationexchange.com/v1/languages/233/countries",
+    "dialects": "https://api.translationexchange.com/v1/languages/233/dialects"
   },
   "fallback_language": {
     "id": 75,
@@ -2119,7 +2119,7 @@
     "english_name": "English (U.S.)",
     "native_name": "English (US)",
     "right_to_left": false,
-    "flag_url": "http://localhost:3000/media_20141208/72/43/72/10/4ad8c39f226c55ed8.png",
-    "link": "http://localhost:3000/v1/languages/75"
+    "flag_url": "https://d23w63adpjpix6.cloudfront.net/72/43/72/10/4ad8c39f226c55ed8.png",
+    "link": "https://api.translationexchange.com/v1/languages/75"
   }
 }

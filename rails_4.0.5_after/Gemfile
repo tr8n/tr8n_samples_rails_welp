@@ -46,7 +46,5 @@ end
 
 gem 'dalli', '~> 2.7'
 gem 'memcache-client', '~> 1.8'
-gem 'tr8n_client_sdk', '~> 4.2'
 
-# gem 'tr8n_core', :path => '../../../tr8n_ruby_core'
-# gem 'tr8n_client_sdk', :path => '../../../tr8n_rails_clientsdk'
+gem 'tml-rails'

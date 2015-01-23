@@ -1,0 +1,107 @@
+{
+  "id": 692,
+  "key": "e328f674f3da28cbaf62aaf4a66079da5916ee2b3620fb082f0536ed8f0baff0",
+  "name": "Welp Sample Application",
+  "threshold": 1,
+  "created_at": "2015-01-06 01:44:42",
+  "updated_at": "2015-01-06 01:44:42",
+  "default_locale": "en",
+  "features": {
+    "inline_translations": true,
+    "machine_translations": true,
+    "translation_suggestions": true,
+    "decorations": true,
+    "shortcuts": true,
+    "context_rules": true,
+    "language_cases": true,
+    "javascript_sdk": false,
+    "glossary": true,
+    "forum": true,
+    "awards": true,
+    "admin_translations": true,
+    "open_registration": true,
+    "language_flags": true
+  },
+  "tokens": {
+  },
+  "css": ".tml_not_translated { border-bottom: 1px dotted red; } .tml_translated { border-bottom: 1px dotted green; } .tml_fallback { border-bottom: 1px dotted #e90; } .tml_pending { border-bottom: 1px dotted #e90; } .tml_locked { border-bottom: 1px dotted blue; } .tml_language_case { padding:3px; border: 1px dotted blue; }",
+  "shortcuts": {
+    "Ctrl+Shift+S": "Tml.Utils.openShortcuts();",
+    "Ctrl+Shift+G": "Tml.Utils.login();",
+    "Ctrl+Shift+I": "Tml.Utils.toggleInlineTranslations();",
+    "Ctrl+Shift+L": "Tml.UI.LanguageSelector.show(true);",
+    "Ctrl+Shift+R": "Tml.Utils.reloadSettings();",
+    "Ctrl+Shift+O": "Tml.Utils.logout();"
+  },
+  "tools": {
+    "postoffice": "https://postoffice.translationexchange.com",
+    "host": "https://translation-center.translationexchange.com",
+    "assets": "https://trex-translation-center.s3-us-west-1.amazonaws.com/assets",
+    "javascript": "https://trex-translation-center.s3-us-west-1.amazonaws.com/assets/tools-8ff3582f18abc84db5dd50045afd41bf.js",
+    "stylesheet": "https://trex-translation-center.s3-us-west-1.amazonaws.com/assets/tools-c81abe6bb4cd518dcd1455127790c9c9.css"
+  },
+  "links": {
+    "self": "https://api.translationexchange.com/v1/applications/692",
+    "languages": "https://api.translationexchange.com/v1/applications/692/languages",
+    "translators": "https://api.translationexchange.com/v1/applications/692/translators",
+    "invitations": "https://api.translationexchange.com/v1/applications/692/invitations",
+    "translation_keys": "https://api.translationexchange.com/v1/applications/692/translation_keys",
+    "translations": "https://api.translationexchange.com/v1/applications/692/translations",
+    "activity": "https://api.translationexchange.com/v1/applications/692/activities",
+    "sources": "https://api.translationexchange.com/v1/applications/692/sources",
+    "metrics": "https://api.translationexchange.com/v1/applications/692/metrics",
+    "documents": "https://api.translationexchange.com/v1/applications/692/documents"
+  },
+  "default_language": {
+    "id": 64,
+    "locale": "en",
+    "english_name": "English",
+    "native_name": "English",
+    "right_to_left": false,
+    "flag_url": "https://d23w63adpjpix6.cloudfront.net/7/55/1/27/c9262c9538cda82c6.png",
+    "link": "https://api.translationexchange.com/v1/languages/64",
+    "status": "published"
+  },
+  "languages": [
+    {
+      "id": 302,
+      "locale": "zh",
+      "english_name": "Chinese",
+      "native_name": "中文(香港)",
+      "right_to_left": false,
+      "flag_url": "https://d23w63adpjpix6.cloudfront.net/75/38/99/40/3b18e3120000661a9.png",
+      "link": "https://api.translationexchange.com/v1/languages/302",
+      "status": "published"
+    },
+    {
+      "id": 64,
+      "locale": "en",
+      "english_name": "English",
+      "native_name": "English",
+      "right_to_left": false,
+      "flag_url": "https://d23w63adpjpix6.cloudfront.net/7/55/1/27/c9262c9538cda82c6.png",
+      "link": "https://api.translationexchange.com/v1/languages/64",
+      "status": "published"
+    },
+    {
+      "id": 63,
+      "locale": "el",
+      "english_name": "Greek",
+      "native_name": "Ελληνικά",
+      "right_to_left": false,
+      "flag_url": "https://d23w63adpjpix6.cloudfront.net/75/18/41/69/2ac47ef71bde369af.png",
+      "link": "https://api.translationexchange.com/v1/languages/63",
+      "status": "published"
+    },
+    {
+      "id": 233,
+      "locale": "ru",
+      "english_name": "Russian",
+      "native_name": "Русский",
+      "right_to_left": false,
+      "flag_url": "https://d23w63adpjpix6.cloudfront.net/91/67/34/74/6d14cff5e2826c668.png",
+      "link": "https://api.translationexchange.com/v1/languages/233",
+      "status": "published"
+    }
+  ]
+}

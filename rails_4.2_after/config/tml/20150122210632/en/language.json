@@ -4,7 +4,7 @@
   "english_name": "English",
   "native_name": "English",
   "right_to_left": false,
-  "flag_url": "http://localhost:3000/media_20141208/7/55/1/27/c9262c9538cda82c6.png",
+  "flag_url": "https://d23w63adpjpix6.cloudfront.net/7/55/1/27/c9262c9538cda82c6.png",
   "contexts": {
     "list": {
       "rules": {
@@ -517,10 +517,10 @@
     }
   },
   "links": {
-    "self": "http://localhost:3000/v1/languages/64",
-    "contexts": "http://localhost:3000/v1/languages/64/contexts",
-    "cases": "http://localhost:3000/v1/languages/64/cases",
-    "countries": "http://localhost:3000/v1/languages/64/countries",
-    "dialects": "http://localhost:3000/v1/languages/64/dialects"
+    "self": "https://api.translationexchange.com/v1/languages/64",
+    "contexts": "https://api.translationexchange.com/v1/languages/64/contexts",
+    "cases": "https://api.translationexchange.com/v1/languages/64/cases",
+    "countries": "https://api.translationexchange.com/v1/languages/64/countries",
+    "dialects": "https://api.translationexchange.com/v1/languages/64/dialects"
   }
 }
