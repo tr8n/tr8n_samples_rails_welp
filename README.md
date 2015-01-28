@@ -2,7 +2,7 @@
   <img src="https://avatars0.githubusercontent.com/u/1316274?v=3&s=200">
 </p>
 
-Tr8n Sample Application
+Sample Applications
 ==================
 
 This sample application demonstrates some of Tr8n's capabilities
@@ -46,10 +46,6 @@ Links
 ==================
 
 * Register on TranslationExchange.com: https://translationexchange.com
-
-* Read TranslationExchange's documentation: http://wiki.tr8nhub.com
-
-* Visit TranslationExchange's blog: http://blog.tr8nhub.com
 
 * Follow TranslationExchange on Twitter: https://twitter.com/translationx
 
