@@ -37,7 +37,16 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-#gem 'dalli'
+gem 'dalli'
 
+gem 'redis'
 gem 'memcache-client', '~> 1.8'
+
+
+#gem 'tml', :git => 'git://github.com/translationexchange/tml-ruby.git'
+#gem 'tml-rails', :git => 'git://github.com/translationexchange/tml-rails.git'
+#
+#gem 'tml', :path => '../../tml-ruby'
+#gem 'tml-rails', :path => '../../tml-rails'
+
 gem 'tml-rails'

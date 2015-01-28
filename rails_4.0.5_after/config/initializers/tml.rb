@@ -3,15 +3,30 @@ Tml.configure do |config|
       token: 'f5f578900616644c9fd7d4584101f68b51a4ca9c402a20e1c34f825c27834d16'
   }
 
+  #config.cache = {
+  #  :enabled  => true,
+  #  :adapter  => 'rails',
+  #  :version  => 5,
+  #  :timeout  => 3600
+  #}
+
+  #config.cache = {
+  #    :enabled  => true,
+  #    :adapter  => 'rails',
+  #    :version  => 5,
+  #    :timeout  => 3600
+  #}
+
   config.cache = {
-    :enabled  => true,
-    :adapter  => 'rails',
-    :version  => 5,
-    :timeout  => 3600
+      :enabled  => true,
+      :adapter  => 'redis',
+      :host     => 'localhost:6379',
+      :version  => 2,
+      :timeout  => 3600
   }
 
   config.logger  = {
-    :enabled  => false,
+    :enabled  => true,
     :path     => "#{Rails.root}/log/tml.log",
     :level    => 'debug'
   }
