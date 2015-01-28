@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.github.com/tr8n/tr8n/master/doc/screenshots/tr8nlogo.png">
+  <img src="https://avatars0.githubusercontent.com/u/1316274?v=3&s=200">
 </p>
 
 Tr8n Sample Application
@@ -14,8 +14,8 @@ Installation
 To install the app, use:
 
 ```ssh
-$ git clone https://github.com/tr8n/tr8n_rails_samples_welp.git
-$ cd tr8n_rails_samples_welp/after
+$ git clone https://github.com/translationexchange/tml-rails-samples-welp.git
+$ cd rails_4.2_after
 $ bundle
 $ bundle exec rails s
 ```
@@ -25,19 +25,16 @@ Open your browser and point to:
 http://localhost:3000
 
 
-There are 2 folders inside that show the application before Tr8n was integrated and after.
-
 To be able to translate any elements in the application, you must be a registered user on TranslationExchange.
 
-Once you register as a new user, add a new application and copy the key/secret combination.
+Once you register as a new user, add a new application and copy the token to the configuration file.
 
-Open "config/initializers/tr8n.rb" and change the following lines:
+Open "config/initializers/tml.rb" and change the following lines:
 
 ```ruby
-Tr8n.configure do |config|
+Tml.configure do |config|
   config.application = {
-      :key => "YOUR KEY",
-      :secret => "YOUR SECRET"
+      :token => "YOUR TOKEN",
   }
 end
 ```
@@ -64,7 +61,7 @@ Links
 Copyright and license
 ==================
 
-Copyright (c) 2014 Michael Berkovich, TranslationExchange.com
+Copyright (c) 2015 TranslationExchange.com
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
