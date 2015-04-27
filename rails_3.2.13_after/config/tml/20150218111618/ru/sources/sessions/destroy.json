@@ -1,0 +1,12 @@
+{
+  "29318de40491e355112bdc3550987965": {
+    "original": {
+      "label": "user.signed_out"
+    },
+    "translations": [
+      {
+        "label": "пользователя.signed_out"
+      }
+    ]
+  }
+}

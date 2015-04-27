@@ -18,25 +18,26 @@ Tml.configure do |config|
   #  :timeout  => 3600
   #}
 
-  #config.cache = {
-  #    :enabled    => true,
-  #    :adapter    => 'file',
-  #    :path       => 'config/tml',
-  #    :version    => 'current',
-  #    :segmented  => false
-  #}
-
   config.cache = {
-      :enabled  => true,
-      :adapter  => 'redis',
-      :host     => 'localhost:6379',
-      :version  => 2,
-      :timeout  => 3600
+      :enabled    => true,
+      :adapter    => 'file',
+      :path       => 'config/tml',
+      :version    => 'current',
+      :segmented  => true
   }
+
+  #config.cache = {
+  #    :enabled  => true,
+  #    :adapter  => 'redis',
+  #    :host     => 'localhost:6379',
+  #    :version  => 2,
+  #    :timeout  => 3600
+  #}
 
   config.logger  = {
     :enabled  => true,
-    :path     => "#{Rails.root}/log/tml.log",
-    :level    => 'debug'
+    :type => :rails
+    #:path     => "#{Rails.root}/log/tml.log",
+    #:level    => 'debug'
   }
 end

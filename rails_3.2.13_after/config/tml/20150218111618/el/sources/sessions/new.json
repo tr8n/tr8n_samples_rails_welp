@@ -1,0 +1,72 @@
+{
+  "bca3550d8cc75279816005f0f541ed34": {
+    "original": {
+      "label": "devise.shared.links.didn_t_receive_unlock_instructions"
+    },
+    "translations": [
+      {
+        "label": "Devise.Shared.links.didn_t_receive_unlock_instructions"
+      }
+    ]
+  },
+  "86f537eb0f958beb4de06777958bdba5": {
+    "original": {
+      "label": "devise.shared.links.forgot_your_password"
+    },
+    "translations": [
+      {
+        "label": "Devise.Shared.links.forgot_your_password"
+      }
+    ]
+  },
+  "425ad9dfd19fb4544b915ddf1a14631d": {
+    "original": {
+      "label": "user.devise.sessions.new.remember_me"
+    },
+    "translations": [
+      {
+        "label": "user.Devise.Sessions.New.remember_me"
+      }
+    ]
+  },
+  "9a606f162820287f65ecce90a7079e79": {
+    "original": {
+      "label": "devise.sessions.new.remember_me"
+    },
+    "translations": [
+      {
+        "label": "Devise.Sessions.New.remember_me"
+      }
+    ]
+  },
+  "0e563ee81b92965a56e0dc0e41fed4e6": {
+    "original": {
+      "label": "user.password"
+    },
+    "translations": [
+      {
+        "label": "user.password"
+      }
+    ]
+  },
+  "95829620d4fbd5e9bbdb4d630e55322a": {
+    "original": {
+      "label": "user.email"
+    },
+    "translations": [
+      {
+        "label": "user.email"
+      }
+    ]
+  },
+  "f4cfc81ca83d105343ee44a6a778685f": {
+    "original": {
+      "label": "devise.sessions.new.sign_in"
+    },
+    "translations": [
+      {
+        "label": "Devise.Sessions.New.sign_in"
+      }
+    ]
+  }
+}

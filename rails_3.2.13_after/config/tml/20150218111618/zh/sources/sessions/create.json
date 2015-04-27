@@ -1,0 +1,12 @@
+{
+  "76a347be511bf2c5b9c86ca9afc4b878": {
+    "original": {
+      "label": "user.signed_in"
+    },
+    "translations": [
+      {
+        "label": "user.signed_in"
+      }
+    ]
+  }
+}

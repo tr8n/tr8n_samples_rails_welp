@@ -1,0 +1,95 @@
+{
+  "46a16ae67db61ba7579d41659bd1ce1f": {
+    "original": {
+      "label": "More {caret}",
+      "locale": "en-US"
+    },
+    "translations": [
+      {
+        "label": "Περισσότερο {caret}"
+      }
+    ]
+  },
+  "47fdb5acb2d927e844ee0e8081a44238": {
+    "original": {
+      "label": "Find Friends",
+      "locale": "en-US"
+    },
+    "translations": [
+      {
+        "label": "Βρείτε τους φίλους"
+      }
+    ]
+  },
+  "f113766efe3bf3c2e02af5fb03af7387": {
+    "original": {
+      "label": "Write a Review",
+      "locale": "en-US"
+    },
+    "translations": [
+      {
+        "label": "Γράψτε μια κριτική"
+      }
+    ]
+  },
+  "bdec53924ee280f725f871ced5abaf93": {
+    "original": {
+      "label": "Toggle navigation"
+    },
+    "translations": [
+      {
+        "label": "Εναλλαγή πλοήγηση"
+      }
+    ]
+  },
+  "9877d0e6e28c01b31401ed54cae5b0b6": {
+    "original": {
+      "label": "About Us"
+    },
+    "translations": [
+      {
+        "label": "Σχετικά με εμάς"
+      }
+    ]
+  },
+  "fd47e9b28508fb642cd1101bb9c2c4f2": {
+    "original": {
+      "label": "Log in"
+    },
+    "translations": [
+      {
+        "label": "Σύνδεση"
+      }
+    ]
+  },
+  "b162876c680e52ef8d8eb861c64fc4f8": {
+    "original": {
+      "label": "Help"
+    },
+    "translations": [
+      {
+        "label": "Βοήθεια"
+      }
+    ]
+  },
+  "800cab0c33c20c83f37fb0dd5eb617c5": {
+    "original": {
+      "label": "Search"
+    },
+    "translations": [
+      {
+        "label": "Αναζήτηση"
+      }
+    ]
+  },
+  "c611f84f13a29f120ebcccfddd6b1594": {
+    "original": {
+      "label": "Sign Up"
+    },
+    "translations": [
+      {
+        "label": "Υπογράψτε"
+      }
+    ]
+  }
+}

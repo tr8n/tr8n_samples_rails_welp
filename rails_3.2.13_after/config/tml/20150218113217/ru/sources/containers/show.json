@@ -1,0 +1,242 @@
+{
+  "44439c6484d422a3e15f9cde0804de16": {
+    "original": {
+      "label": "containers.sideform.temperature_[c]"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sideform.temperature_[c]"
+      }
+    ]
+  },
+  "8f7d9a257f125fac50ba37c90b257f4a": {
+    "original": {
+      "label": "containers.sideform.battery_[v]"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sideform.battery_[v]"
+      }
+    ]
+  },
+  "60eb343446340fbfd9c6fb967f703682": {
+    "original": {
+      "label": "containers.show.next"
+    },
+    "translations": [
+      {
+        "label": "containers.show.next"
+      }
+    ]
+  },
+  "79909cbda88f21d38151ce94705b929a": {
+    "original": {
+      "label": "containers.show.previous"
+    },
+    "translations": [
+      {
+        "label": "containers.show.previous"
+      }
+    ]
+  },
+  "0cb092865861317ca9b137bc3c08c8a4": {
+    "original": {
+      "label": "containers.sideform.max"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.max"
+      }
+    ]
+  },
+  "de97bccfb673b385d9bd6c6cf7918e38": {
+    "original": {
+      "label": "containers.sideform.min"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.min"
+      }
+    ]
+  },
+  "df5c275d4a887ca19c10d9490d39d12c": {
+    "original": {
+      "label": "containers.sideform.height_[mm]"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.height_ [мм]"
+      }
+    ]
+  },
+  "1e2c9e7f6e703c4e8eb344a20fa2e416": {
+    "original": {
+      "label": "containers.sideform.type"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.type"
+      }
+    ]
+  },
+  "12aa01de8e6c00a3bd45aeb981670e7f": {
+    "original": {
+      "label": "containers.sideform._updated"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform._updated"
+      }
+    ]
+  },
+  "383a3dca9ad247540503c4835597ffcf": {
+    "original": {
+      "label": "containers.sideform._created"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform._created"
+      }
+    ]
+  },
+  "752d837f523a52c96c1850e2b2edb380": {
+    "original": {
+      "label": "containers.sideform.id"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.id"
+      }
+    ]
+  },
+  "212adf3d194c8f096d8db66dd4bb0bb2": {
+    "original": {
+      "label": "containers.sideform.details"
+    },
+    "translations": [
+      {
+        "label": "containers.sideform.details"
+      }
+    ]
+  },
+  "4ab0fadbb1aadaaf750a1ebf2d3055fd": {
+    "original": {
+      "label": "shared.street.id_{objectcontainer_id}"
+    },
+    "translations": [
+      {
+        "label": "shared.street.id_ {objectcontainer_id}"
+      }
+    ]
+  },
+  "f99855fa63ee347c9d4b67289af4be1c": {
+    "original": {
+      "label": "layouts.header_all.admin"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.admin"
+      }
+    ]
+  },
+  "18e4e1ed1a15c4382897c2b37d596a97": {
+    "original": {
+      "label": "layouts.header_all.confirm"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.подтвердить"
+      }
+    ]
+  },
+  "f6ebc8bc4dc151133c326a6762228b4f": {
+    "original": {
+      "label": "layouts.header_all.logout"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.logout"
+      }
+    ]
+  },
+  "590883193f1b73fc7cf1b8c9593165d0": {
+    "original": {
+      "label": "editer password"
+    },
+    "translations": [
+      {
+        "label": "editer пароль"
+      }
+    ]
+  },
+  "f4ed2bf4839123d18cc0e8add26e3379": {
+    "original": {
+      "label": "layouts.header_all.home"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.дома"
+      }
+    ]
+  },
+  "7bb48439c9886fc330c102e9b779cd59": {
+    "original": {
+      "label": "layouts.header_all.is_full"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.is_full"
+      }
+    ]
+  },
+  "c86733967deb484a196caf1769a88e4c": {
+    "original": {
+      "label": "layouts.header_all.is_outdated"
+    },
+    "translations": [
+      {
+        "label": "макетов.header_all.is_outdated"
+      }
+    ]
+  },
+  "d04c6cb4fdc2438a02a4328512fc17ec": {
+    "original": {
+      "label": "containers.sidenav.map"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sidenav.карта"
+      }
+    ]
+  },
+  "b7c8a200b3bccd94481774295dfa140b": {
+    "original": {
+      "label": "containers.sidenav.details"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sidenav.детали"
+      }
+    ]
+  },
+  "d006b99998cf606d4b62c748a5c6b403": {
+    "original": {
+      "label": "containers.sidenav.overview"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sidenav.обзор"
+      }
+    ]
+  },
+  "1de27be6f5c6d68321e02c9d07b62657": {
+    "original": {
+      "label": "containers.sidenav.navigation"
+    },
+    "translations": [
+      {
+        "label": "контейнерах.sidenav.навигация"
+      }
+    ]
+  }
+}

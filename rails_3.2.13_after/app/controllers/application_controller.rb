@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
-  #def current_locale
-  #  tml_translator_locale || 'es'
-  #end
+  def current_locale
+    'es-MX'
+  end
 
 end

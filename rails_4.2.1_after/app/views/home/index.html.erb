@@ -1,0 +1,150 @@
+<div class="container">
+
+  <div class="content">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="pull-right"><br>
+          <%= link_to(tr("More Cities"), "#") %>
+        </div>
+        <h4>
+          <%= tr("Welp {city}", city: tr("Los Angeles")) %>
+        </h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="well">
+          <h3 class="text-primary">
+            <%= tr("The best way to find local businesses") %>
+          </h3>
+          <p class="text-muted">
+            <%= tr("Search for everything from the city's tastiest burger to the most renowned cardiologist.") %>
+            <%= tr("What will you uncover in your neighborhood?") %>
+          </p>
+          <p>
+            <%= link_to(tr("Create your free account"), "#", class: "btn btn-primary") %>
+          </p>
+        </div>
+
+        <h3 class="text-primary">
+          <%= tr("Best of Welp: {city}", city: tr("Los Angeles")) %>
+        </h3>
+
+        <hr>
+
+        <small class="pull-right">
+          <%=link_to(tr("See More"), '#') %>
+        </small>
+
+        <h5 class="text-primary">
+          <%= tr("Restaurants") %>
+        </h5>
+
+        <% @restaurants.each_with_index do |restaurant, index| %>
+          <div class="media">
+            <a class="pull-left" href="#">
+              <div class="media-object media-img"></div>
+            </a>
+            <div class="media-body">
+              <strong>
+                <%= index + 1 %>.
+                <%= link_to(restaurant[:name], '#') %>
+              </strong>
+
+              <div class="text-muted">
+                <%= image_tag("#{restaurant[:rating]}-stars.png",
+                              title: trl("{num} out of {count|| star}", num: restaurant[:rating], count: 5)
+                ) %>
+                <%= tr("{count|| Review}", count: restaurant[:review_count]) %>
+              </div>
+
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <div class="media-object media-img-sm"></div>
+                </a>
+                <div class="media-body">
+                  <p> <%= restaurant[:last_comment] %></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+      </div>
+
+      <div class="col-sm-5">
+        <%= form_tag do %>
+          <div class="form-group">
+            <label><small>
+              <%= tr("Find") %>
+            </small></label>
+            <input type="text" class="form-control" placeholder="<%= trl("tacos, cheap dinner, etc.") %>">
+          </div>
+          <div class="form-group">
+            <label><small>
+              <%= tr("Near") %>
+            </small></label>
+            <input type="text" class="form-control" value="<%=trl("Los Angeles") %>">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default btn-sm">
+              <%= tr("Search") %>
+            </button>
+          </div>
+        <% end %>
+
+        <hr>
+
+        <h4 class="text-primary">
+          <%= tr("Review of the day") %>
+        </h4>
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              <%= tr("[link: {user}] reviewed [link: {business_name}]", {
+                      link: {:href => ""},
+                      user: {:value => "Jane Smith", :gender => "female"},
+                      business_name: "Ricky's Fish Tacos"
+              }) %>
+            </strong>
+            <div>
+              <%= image_tag("5-stars.png", :title => trl("{num} out of {count|| star}", num: 5, count: 5)) %>
+            </div>
+            <small class="text-muted">
+              <%= tr("{count|| Review}", count: 234) %>
+            </small>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, architecto, laboriosam doloribus sequi tenetur maxime magni porro sunt facilis officia deserunt blanditiis vitae consectetur rerum alias dolorem et dignissimos...
+              <%= link_to(tr("Read More"), "#") %>
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <h4 class="text-primary">
+          <%= tr("Welp on the go") %>
+        </h4>
+
+        <p>
+          <%= tr("Get the Welp app on your mobile phone. It's free and helps you find great, local businesses on the go!") %>
+        </p>
+
+        <button type="submit" class="btn btn-default btn-sm">
+          <%= tr("Get it free now") %>
+        </button>
+
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+
+</div>

@@ -1,0 +1,345 @@
+{
+  "53030e78436faf8cc15132087b4ae560": {
+    "original": {
+      "label": "{num} out of 5 stars"
+    },
+    "translations": [
+
+    ]
+  },
+  "cdd7ef82d06ab33999b16f194ea424a6": {
+    "original": {
+      "label": "{user} reviewed {restaurant}"
+    },
+    "translations": [
+
+    ]
+  },
+  "a610d3e56a0b8976507065dc245af569": {
+    "original": {
+      "label": "{count} reviews"
+    },
+    "translations": [
+
+    ]
+  },
+  "c804be1a411efdff50ce938657b28bad": {
+    "original": {
+      "label": "{count} review"
+    },
+    "translations": [
+
+    ]
+  },
+  "072120a0b2eb7500cc0866b8018be8d7": {
+    "original": {
+      "label": "{rating} out of 5 stars"
+    },
+    "translations": [
+
+    ]
+  },
+  "a799cb0900a89ba84dd8916dd5c88367": {
+    "original": {
+      "label": "[span: Create Date]"
+    },
+    "translations": [
+
+    ]
+  },
+  "46a16ae67db61ba7579d41659bd1ce1f": {
+    "original": {
+      "label": "More {caret}",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "3d8923ed9b1aff50ae044ed6227c137f": {
+    "original": {
+      "label": "[link: {user}] reviewed [link: {business_name}]",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "a1a19f01470bc173a2bae073c8cd9940": {
+    "original": {
+      "label": "{count|| Review}",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "b70f533a946994ba8d9d6dca948f182a": {
+    "original": {
+      "label": "{num} out of {count|| star}",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "355c1cac10486e3ec3dce1124ae9f9b5": {
+    "original": {
+      "label": "tacos, cheap dinner, etc."
+    },
+    "translations": [
+
+    ]
+  },
+  "fd341634ccdde3f90fe8eb20dd775a52": {
+    "original": {
+      "label": "Search for everything from the city's tastiest burger to the most renowned cardiologist. What will you uncover in your neighborhood?"
+    },
+    "translations": [
+
+    ]
+  },
+  "fa1283c272907fec7f9583b034ed54e2": {
+    "original": {
+      "label": "Get it free now",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "665e56abe464a060539644d150bff986": {
+    "original": {
+      "label": "Get the Welp app on your mobile phone. It's free and helps you find great, local businesses on the go!",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "172d6011fe16fd7a0c1d0f98c848ccee": {
+    "original": {
+      "label": "Welp on the go",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "285667bd66d97f93afc0e939b34aa6b0": {
+    "original": {
+      "label": "Review of the day",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "208a19bbc7aa6e3277eeda2c06cf2e61": {
+    "original": {
+      "label": "Best of Welp: {city}",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "f72c49f684805f50fd600df05dceb2da": {
+    "original": {
+      "label": "Create your free account",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "bff2ebe67a2f2bf28b2dacb8cb3de09f": {
+    "original": {
+      "label": "What will you uncover in your neighborhood?",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "ae20412995ec6011e4c3fc1e5b880db6": {
+    "original": {
+      "label": "Search for everything from the city's tastiest burger to the most renowned cardiologist.",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "45932eaf3a6a1bb79a2845bbe256f739": {
+    "original": {
+      "label": "The best way to find local businesses",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "fd7ab0ef8c8291ad24de98044e70ba7f": {
+    "original": {
+      "label": "Welp {city}",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "ac05eac653f76429a381bb6e578ac4e3": {
+    "original": {
+      "label": "More Cities"
+    },
+    "translations": [
+
+    ]
+  },
+  "ab64f3e651d861528205ca24f3df2702": {
+    "original": {
+      "label": "See More"
+    },
+    "translations": [
+
+    ]
+  },
+  "47fdb5acb2d927e844ee0e8081a44238": {
+    "original": {
+      "label": "Find Friends",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "f113766efe3bf3c2e02af5fb03af7387": {
+    "original": {
+      "label": "Write a Review",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "3b34bdddead9808524c2f1bd00444a39": {
+    "original": {
+      "label": "Near",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "ee30e4e40525637049c1f9dcaa0244c3": {
+    "original": {
+      "label": "Read More"
+    },
+    "translations": [
+
+    ]
+  },
+  "0f7de91a16a50c3f4cb6ddacebc22b5d": {
+    "original": {
+      "label": "Restaurants"
+    },
+    "translations": [
+
+    ]
+  },
+  "3f3f11af61dad282bf05fa0d20b734e2": {
+    "original": {
+      "label": "Los Angeles"
+    },
+    "translations": [
+
+    ]
+  },
+  "bdec53924ee280f725f871ced5abaf93": {
+    "original": {
+      "label": "Toggle navigation"
+    },
+    "translations": [
+
+    ]
+  },
+  "9b24808aebd10089d15ae0e5e0e19a5e": {
+    "original": {
+      "label": "This is a test",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "9877d0e6e28c01b31401ed54cae5b0b6": {
+    "original": {
+      "label": "About Us"
+    },
+    "translations": [
+
+    ]
+  },
+  "a6f692874e8ddea6bc2fa9d2da6a3ac2": {
+    "original": {
+      "label": "Find",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "e3438bebabca30c01750c90b19bbb3de": {
+    "original": {
+      "label": "Header",
+      "locale": "en-US"
+    },
+    "translations": [
+
+    ]
+  },
+  "fd47e9b28508fb642cd1101bb9c2c4f2": {
+    "original": {
+      "label": "Log in"
+    },
+    "translations": [
+
+    ]
+  },
+  "b162876c680e52ef8d8eb861c64fc4f8": {
+    "original": {
+      "label": "Help"
+    },
+    "translations": [
+
+    ]
+  },
+  "d541c79af1be6a05b1f16fca8b5730de": {
+    "original": {
+      "label": "Hello World",
+      "locale": "en-US"
+    },
+    "translations": [
+      {
+        "label": "Hello World"
+      }
+    ]
+  },
+  "800cab0c33c20c83f37fb0dd5eb617c5": {
+    "original": {
+      "label": "Search"
+    },
+    "translations": [
+
+    ]
+  },
+  "c611f84f13a29f120ebcccfddd6b1594": {
+    "original": {
+      "label": "Sign Up"
+    },
+    "translations": [
+
+    ]
+  }
+}

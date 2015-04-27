@@ -1,0 +1,12 @@
+{
+  "4ab0fadbb1aadaaf750a1ebf2d3055fd": {
+    "original": {
+      "label": "shared.street.id_{objectcontainer_id}"
+    },
+    "translations": [
+      {
+        "label": "shared.street.id_{objectcontainer_id}"
+      }
+    ]
+  }
+}
