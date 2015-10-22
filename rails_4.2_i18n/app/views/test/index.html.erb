@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="content" style="padding:40px;">
+
+    <%= t('hello', :number => number_with_delimiter(5)) %>
+
+    <br><br>
+
+    <%= t('hello %{number}', :number => number_with_delimiter(5)) %>
+
+    <br><br>
+
+    <%= "Hello there".parameterize %>
+
+    <br><br>
+
+    <%= ['one', 'two'].to_sentence %>
+
+    <br><br>
+
+    <%= ['one', 'two'].translate_sentence('Sample sentence', {joiner: 'and'}) %>
+
+    <br><br>
+
+    <% items = []; 1.upto(10) {|i| items << "item #{i}"} %>
+    <%= tr("I have {count || item}: {items}", 'List of items', count: 10, items: [items, lambda{|item| tr(item)}, {limit: 3}]) %>
+
+  </div>
+</div>
