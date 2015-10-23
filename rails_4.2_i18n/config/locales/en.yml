@@ -29,6 +29,7 @@ en:
   see_more: "See More"
   restaurants: "Restaurants"
   rating: "%{rating} out of 5 stars"
+  # pluralization
   reviews:
     one: "%{count} review"
     other: "%{count} reviews"

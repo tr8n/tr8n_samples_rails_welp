@@ -8,7 +8,7 @@
           <%= link_to(t(:more_cities), "#") %>
         </div>
         <h4>
-          <%= t("Welp %{city}", city: t("Los Angeles")) %>
+          <%= t(:welp_title, city: t(:los_angeles)) %>
         </h4>
         <hr>
       </div>
@@ -30,6 +30,7 @@
 
         <h3 class="text-primary">
           <%= t(:best_of_welp, city: t(:los_angeles)) %>
+          <!-- %= tr('Best of Welp: {city}', city: tr('Los Angeles')) % -->
         </h3>
 
         <hr>

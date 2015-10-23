@@ -8,11 +8,17 @@ class ApplicationController < ActionController::Base
     raise e
   end
 
+  before_filter :set_i18n_locale
 
 private
 
   #def current_locale
   #  'ru'
   #end
+
+  def set_i18n_locale
+    I18n.enforce_available_locales = false
+    I18n.locale = tml_current_locale
+  end
 
 end
