@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'test' => 'test#index'
+  get 'test/forms' => 'test#forms'
+
+  get 'users' => 'user#index'
+  post 'users' => 'user#create'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

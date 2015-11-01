@@ -20,6 +20,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+
+  helpers:
+    label:
+      user:
+        name: "My Name"
+
   more_cities: "More Cities"
   welp_title: "Welp %{city}"
   subtitle: "The best way to find local businesses"
